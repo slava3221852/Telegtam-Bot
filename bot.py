@@ -17,5 +17,5 @@ def posting():
                 time.sleep(2)
     except Exception as e:
         posting()
-        
-posting()
+if __name__ == '__main__':
+    posting()
